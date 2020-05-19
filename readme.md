@@ -29,9 +29,9 @@ Vous pourrez trouver une view de l'exercice ici : https://raphael-dln.github.io/
     * 2.2.5.1. Les molécules : cartes
     * 2.2.5.2. Les organismes : listes de cartes
     * 2.2.6. Les commentaires : molécule et organisme
+* 2.2.9. Un organisme de ton choix
 
 **Travail restant**  
 
 * 2.2.7. Présentation ressource
 * 2.2.8. Présentation d'un élément
-* 2.2.9. Un organisme de ton choix
