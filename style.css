@@ -95,11 +95,22 @@
    
  }
 
+ .jumbotron {
+  background-image: url("https://images.pexels.com/photos/1105666/pexels-photo-1105666.jpeg?cs=srgb&dl=audience-concert-danser-en-direct-1105666.jpg&fm=jpg");
+  background-size: cover;
+  color: #ffffff;
+  text-align: center;
+  padding-bottom: 500px;
+}
+
+.jumbotron h1 {
+  color: #ffffff;
+}
+
  .icon { 
-  width: 15px;
-  height: auto;
-  margin-right: 15px;
-  padding-top: 4px;
+  padding: 10px; 
+  min-width: 50px; 
+  text-align: center; 
 } 
  
  [tabindex="-1"]:focus:not(:focus-visible) {
@@ -2778,12 +2789,6 @@
    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
  }
-
- .btn-sm {
-  padding: 6px 12px;
-  font-size: 12px;
-  
-}
  
  @media (prefers-reduced-motion: reduce) {
    .btn {
