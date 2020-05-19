@@ -49,6 +49,82 @@
    -webkit-box-sizing: border-box;
            box-sizing: border-box;
  }
+
+ /************************/
+/* 	    COULEURS        */
+/************************/
+
+.primary {
+	background-color: #1a1a1a;
+}
+ 
+.text-primary {
+  color: #1a1a1a;	
+}
+
+.secondary {
+  background-color:#fff;
+}
+
+.text-secondary {
+  color: #fff;	
+}
+ 
+.warning {
+  background-color: #f0ad4e;
+}
+
+.text-warning {
+  color: #f0ad4e;	
+}
+
+.success {
+	background-color: #4BBF73;
+}
+
+.text-success {
+  color: #4BBF73;	
+}
+
+.danger {
+	background-color: #d9534f;
+}
+
+.text-danger {
+  color: #d9534f;	
+}
+
+.info {
+	background-color: #1F9BCF;
+}
+
+.text-info {
+  color: #1F9BCF;	
+}
+
+.dark-grey {
+	background-color: #343a40;
+}
+
+.text-dark-grey {
+  color: #343a40;	
+}
+
+.medium-light-grey {
+	background-color: #5b656e;
+}
+
+.text-medium-light-grey {
+  color: #5b656e;	
+}
+
+.light-grey {
+	background-color: #919aa1;
+}
+
+.text-light-grey {
+  color: #919aa1;	
+}
  
  html {
    font-family: sans-serif;
@@ -80,6 +156,13 @@
   background-color: #1a1a1a;
   color: #fff;
  }
+
+ .color-box {
+    display: flex;
+    margin: 15px 7px;
+    align-items: center;
+    justify-content: center;
+  }
 
  .footer-text {
    color: #FFFFFF;
@@ -124,6 +207,22 @@
   padding-left:15px;
   margin-right: 15px;
  }
+
+
+
+/* 	         btn size            */
+/****************************/
+.btn-sm {
+  padding: 6px 12px;
+  font-size: 12px;
+  
+}
+
+.btn-lg {
+  padding: 20px 40px;
+  font-size: 20px;
+  margin: 6px 3px;
+}
  
  h1, h2, h3, h4, h5, h6 {
    margin-top: 0;

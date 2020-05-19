@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
-  
+   
   <body>
     <header>
       <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
@@ -61,17 +61,149 @@
       </nav>
     </header>
 
-    <!-- Baneer + call to action -->
-    <div class="jumbotron jumbotron-fluid">
-      <div class="container text-center">
-        <h1>Eventbrite Lite</h1>
-        <p>Participate to the best events of your city</p><br />
-        <button name="button" class="btn btn-outline-primary" id="">New event</button>
-      </div>
-    </div>
+    <!--////////////////////////////////-->
+    <!--              Kit UI            -->
+    <!--////////////////////////////////-->
 
-    <h1>Welcome on Eventbrite !</h1>
-    <p>You can access the different elements of the site through the navbar. Enjoy</p>
+    <div class="container-fluid"><br>
+      <h1>Welcome to Eventbrite</h1>
+      <h2>Discover events in your city</h2>
+
+      <div class="row">
+        <div class="color-box primary" style="width: 150px; height: 150px;">
+          <p class="text-white">Primary</p>
+        </div>
+        <div class="color-box secondary" style="width: 150px; height: 150px;">
+          <p>Secondary</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="color-box danger" style="width: 150px; height: 150px;">
+          <p class="text-white">Danger</p>
+        </div>
+        <div class="color-box warning" style="width: 150px; height: 150px;">
+          <p>Warning</p>
+        </div>
+        <div class="color-box success" style="width: 150px; height: 150px;">
+          <p class="text-white">Success</p>
+        </div>
+        <div class="color-box info" style="width: 150px; height: 150px;">
+          <p class="text-white">Info</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="color-box dark-grey" style="width: 150px; height: 150px;">
+          <p class="text-white">Dark-grey</p>
+        </div>
+        <div class="color-box medium-light-grey" style="width: 150px; height: 150px;">
+          <p class="text-white">Medium-light-grey</p>
+        </div>
+        <div class="color-box light-grey" style="width: 150px; height: 150px;">
+          <p class="text-white">Light-grey</p>
+        </div>
+      </div><br>
+
+      <h2>Typography</h2><br />
+      <h1>This is an h1 title, from the theme LUX.</h1>
+      <h2>This is an h2 title, this is a bit less important.</h2>
+      <h3>This is an h3 title, this is less important.</h3>
+      <h4>This is a h4 title. All our titles are in Nunito Sans.</h4>
+      <p>Our text is in Nunito Sans as well.</p><br>
+      <blockquote>> This is a fucking quote.</blockquote>
+      <small>This is small text.</small><br />
+      <ol> 
+        <li>Decimal list item 1</li> 
+        <li>Decimal list item 2</li>
+      </ol>
+      
+      <ul>
+        <li>Random list item</li>
+        <li>Random list item</li>
+      </ul><br>
+      
+      <h2>Buttons</h2>
+      <div class="row">
+        <ul><button class="btn btn-primary">Primary</button></ul>
+        <ul><button class="btn btn-danger">Danger</button></ul>
+        <ul><button class="btn btn-warning">Warning</button></ul>
+        <ul><button class="btn btn-success">Success</button></ul>
+        <ul><button class="btn btn-info">Info</button></ul>
+      </div>
+      <div class="row">
+        <ul><button class="btn btn-outline-primary">Primary</button></ul>
+        <ul><button class="btn btn-outline-danger">Danger</button></ul>
+        <ul><button class="btn btn-outline-warning">Warning</button></ul>
+        <ul><button class="btn btn-outline-success">Success</button></ul>
+        <ul><button class="btn btn-outline-info">Info</button></ul>
+      </div>
+       <ul><button class="btn btn-primary btn-sm">Small</button></ul>
+       <ul><button class="btn btn-primary btn-lg">Large</button></ul><br>
+
+        <h2>Forms</h2>
+        <div class="mt-lg-5 mt-1 mb-3 pt-0">
+          <div class="col-12 d-flex align-items-center justify-content-center">
+            <div class="col-lg-4 col-12 box-shadow-2 p-0">
+              <div class="card border-grey border-lighten-3 m-0">
+                <div class="card-header border-0">
+                  <div class="text-center mb-1">
+                    <h3> Connexion</h3>        
+                  </div>
+                </div>
+                <div class="card-content">
+                  <div class="card-body">
+                    <form class="new_user" id="" action="" accept-charset="UTF-8" method="post">
+                      <fieldset class="form-group position-relative">
+                        <input autofocus="autofocus" autocomplete="email" class="form-control" placeholder="Email" type="email" value="" name="" id="" />
+                      </fieldset>
+      
+                      <fieldset class="form-group position-relative">
+                        <input autocomplete="off" class="form-control" placeholder="Password" type="password" name="" id="" />
+                      </fieldset>
+                      <hr />   
+                      <label for="choice">Choose an option:</label>
+                      <select id="choice" class="btn btn-primary btn-sm">
+                        <option value="choice_1">Choice 1</option>
+                        <option value="choice_2">Choice 2</option>
+                        <option value="choice_3">Choice 3</option>
+                        <option value="choice_4">Choice 4</option>
+                      </select><br><br>
+
+                      <p>Choose one of the following:</p>
+                      <label for="radio" class="radiobox">Radio input 1</label>
+                      <input type="radio" id="radio" name="radio"><br>
+                      <label for="radio" class="radiobox">Radio input 2</label>
+                      <input type="radio" id="radio" name="radio"><br>
+                      <label for="radio" class="radiobox">Radio input 3</label>
+                      <input type="radio" id="radio" name="radio"><br><br>
+
+                      <p>Choose one or severals:</p>
+                      <div>
+                        <input type="checkbox" name="checkbox1">
+                        <label for="checkbox1" class="radiobox">Option 1</label>
+                      </div>
+                      <div>
+                        <input type="checkbox" name="checkbox2">
+                        <label for="checkbox2" class="radiobox">Option 2</label>
+                      </div>
+                      <div>
+                        <input type="checkbox" name="checkbox3">
+                        <label for="checkbox3" class="radiobox">Option 3</label>
+                      </div>
+                      <div>
+                        <input type="checkbox" name="checkbox4">
+                        <label for="checkbox4" class="radiobox">Option 4</label>
+                      </div><br>
+                      <div class="col-12 justify-content-center">
+                        <a class="btn btn-outline-primary btn-block text-truncate btn-sm" href="#">Validate here</a>
+                      </div>                
+                    </form>         
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
 
     <!-- Footer -->
     <footer class="page-footer font-small unique-color-primary">
